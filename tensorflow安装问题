@@ -1,0 +1,5 @@
+先 pip isntall virtualenv 如果出现read time out 则可能是因为服务器在国外的问题 可以利用国内镜像下载
+virtualenv 创建镜像具体步骤见https://blog.csdn.net/u011240016/article/details/78384208
+进入scripts cmd 输入activate.bat
+下载tensorflow pip install tensorflow==1.13.1 如果出现没有合适的tensorflow报错 可能是因为虚拟环境自带的python为32位 需要换成64位的
+重新下载， 在pycharm中导入路径下的python解释器 则能够使用tensorflow啦
